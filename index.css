@@ -1,0 +1,22 @@
+.box-navbar{
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    align-content: center;
+    margin: auto 270px;
+    background-color: #9CBD37;
+    border-radius: 20px;
+    display: flex;
+    list-style: none;
+}
+
+td,th{
+    padding: 25px;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+}
