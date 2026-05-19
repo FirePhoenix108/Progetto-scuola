@@ -30,23 +30,23 @@
 }
 
 .main-page {
-    max-width: 1000px;   /* Stessa larghezza della navbar per farli combaciare */
+    max-width: 1000px;
     width: 100%;
-    margin: 0 auto 40px auto; /* Centrato. 0 spazio sopra, 40px di spazio in fondo alla pagina */
-    background-color: #1a1a1a; /* Un grigio molto scuro per staccare dallo sfondo nero */
-    border-radius: 20px; /* Angoli arrotondati come la navbar */
-    padding: 30px;       /* Spazio interno per non far toccare i testi ai bordi */
-    border: 1px solid #333; /* Un leggero bordo per dare profondità */
+    margin: 0 auto 40px auto;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid #333;
 }
 
 .box-contenuto h1 {
-    color: #9CBD37; /* Richiama il verde della navbar per i titoli */
+    color: #9CBD37;
     margin-bottom: 20px;
 }
 
 .box-contenuto p {
     font-size: 16px;
-    line-height: 1.6; /* Rende il testo più leggibile */
+    line-height: 1.6;
     margin-bottom: 15px;
     color: #cccccc;
 }
