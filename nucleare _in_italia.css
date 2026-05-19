@@ -1,20 +1,20 @@
 body{
-    background-color: 
+    background-color: blue;
     font-family: Arial, sans-serif;
     margin: 40px;
 }
 
 h1{
-    color: 
+    color: white;
     text-align: center;
     font-size: 40px;
 }
 
 h2{
-    color: 
+    color: black;
 }
 
 p{
     font-size: 18px;
-    color:
+    color: #235233;
 }
