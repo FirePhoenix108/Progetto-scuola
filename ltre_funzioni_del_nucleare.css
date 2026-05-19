@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.titolo {
+    margin-bottom: 20px;
+    color: 
+}
+
+.sezione {
+    display: flex;
+    background-color: 
+    padding: 20px;
+    width: 70%;
+}
+
+p {
+    font-size: 18px;
+}
