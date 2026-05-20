@@ -1,3 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .box-navbar{
     height: 70px;
     max-width: 1000px;
@@ -5,9 +16,11 @@
     margin: 20px auto;
     background-color: #9CBD37;
     border-radius: 20px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     padding: 0 20px;
 }
 
@@ -22,7 +35,6 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    transition: color 0.2s;
 }
 
 .menu a:hover {
@@ -33,34 +45,18 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto 40px auto;
+
     background-color: #1a1a1a;
     border-radius: 20px;
     padding: 30px;
     border: 1px solid #333;
+
+    flex: 1;
 }
 
-.box-contenuto h1 {
-    color: #9CBD37;
-    margin-bottom: 20px;
-}
-
-.box-contenuto p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    color: #cccccc;
-}
-
-#menu p:hover {
-    color: blue;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 10px;
-    text-align: end;
-}
-
-body{
-    background-color: black;
-    color: white;
-    display: flex;
+.footer {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
 }
