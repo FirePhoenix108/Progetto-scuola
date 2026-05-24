@@ -2,22 +2,22 @@ body{
     background-color: black;
     color: white;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-h1, h2 {
+h1, h2, h3{
     text-align: center;
-    font-family: "Georgia", serif;
-    font-weight: bold;
+    font-weight: 700;
+    color: #9CBD37;
+    letter-spacing: 0.5px;
 }
 
-.titolo p {
-    text-align: center;
-    font-style: italic;
-    color: #cccccc;
+p{
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .box-navbar{
@@ -106,8 +106,6 @@ h1, h2 {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    transition: all 0.3s ease;
-    z-index: 1000;
     border: 2px solid #9CBD37;
 }
 
@@ -121,7 +119,6 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 0.3s ease;
 }
 
 .back-on-top:hover {
