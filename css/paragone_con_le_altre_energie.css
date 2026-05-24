@@ -8,6 +8,20 @@ body{
     min-height: 100vh;
 }
 
+/* NUOVO: stile titoli */
+h1, h2 {
+    text-align: center;
+    font-family: "Georgia", serif;
+    font-weight: bold;
+}
+
+/* opzionale: migliora paragrafi nei titoli */
+.titolo p {
+    text-align: center;
+    font-style: italic;
+    color: #cccccc;
+}
+
 .box-navbar{
     height: 70px;
     max-width: 1000px;
@@ -112,12 +126,10 @@ body{
     transition: color 0.3s ease;
 }
 
-
 .back-on-top:hover {
     background: #1bba35;
     transform: scale(1.05);
 }
-
 
 .back-on-top:hover a {
     color: black;
