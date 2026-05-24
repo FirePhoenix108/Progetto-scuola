@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    color: white;
+    color: #e6e6e6;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -10,7 +10,6 @@ body{
 
 h1, h2, h3{
     text-align: center;
-    font-family: 'Segoe UI', sans-serif;
     font-weight: 700;
     color: #9CBD37;
     letter-spacing: 0.5px;
@@ -18,7 +17,8 @@ h1, h2, h3{
 
 p{
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.7;
+    color: #d6d6d6;
 }
 
 .box-navbar{
